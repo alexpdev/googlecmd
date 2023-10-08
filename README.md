@@ -15,7 +15,7 @@
 
 A command line utility for launching google search queries from the command line.
 
-![Googlecmd_demo](https://github.com/alexpdev/googlecmd/googlecmd_demo.gif)
+![Googlecmd_demo](https://raw.githubusercontent.com/alexpdev/googlecmd/master/googlecmd_demo.gif)
 
 ## 🔌 Requirements
 
