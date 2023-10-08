@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=40.8.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "googlecmd"
+authors = [{name = "alexpdev", email = "alexpdev@pm.me"}]
+description = "Launch google search query from the command line."
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.6"
+keywords = ["Google-Search", "Search-Engine", "Query", "Browser", "CLI"]
+classifiers = [
+    "Environment :: Console",
+    "Development Status :: 4 - Beta",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Developers",
+    "Topic :: Utilities",
+    "License :: OSI Approved :: Apache Software License",
+]
+
+[project.scripts]
+google = "google.__main__:main"
+googlecmd = "google.__main__:main"
+
+[project.urls]
+homepage = "https://github.com/alexpdev/googlecmd"
+repository = "https://github.com"
+documentation = "https://alexpdev.github.io/googlecmd"
+changelog = "https://alexpdev.github.io/googlecmd/changelog/"
+issues = "https://github.com/alexpdev/googlecmd/issues"
+
+[tool.setuptools]
+packages = ["google"]
