@@ -1,6 +1,6 @@
-# TorrentFile
+# GoogleCMD
 
-![torrentfile](https://github.com/alexpdev/googlecmd/logo.png)
+![GoogleCMD](https://github.com/alexpdev/googlecmd/logo.png)
 
 * * *
 
@@ -14,6 +14,8 @@
 ## 🌐 Overview
 
 A command line utility for launching google search queries from the command line.
+
+![Googlecmd_demo](https://github.com/alexpdev/googlecmd/googlecmd_demo.gif)
 
 ## 🔌 Requirements
 
