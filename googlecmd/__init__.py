@@ -1,4 +1,4 @@
-from google.googlecmd import execute
+from googlecmd.googlecmd import execute
 
 __all__ = ["execute"]
 

@@ -1,7 +1,5 @@
 # GoogleCMD
 
-![GoogleCMD](https://github.com/alexpdev/googlecmd/logo.png)
-
 * * *
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/alexpdev/googlecmd?color=orange)
