@@ -12,7 +12,7 @@ import webbrowser
 import argparse
 import sys
 from urllib.parse import quote
-from google.__version__ import VERSION
+from googlecmd.__version__ import VERSION
 
 """
 Simple command line tool that runs google queries and opens them in a web browser.

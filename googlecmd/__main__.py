@@ -1,4 +1,4 @@
-from google.googlecmd import execute
+from googlecmd.googlecmd import execute
 
 def main():
     execute()

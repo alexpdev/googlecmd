@@ -30,8 +30,8 @@ classifiers = [
 ]
 
 [project.scripts]
-google = "google.__main__:main"
-googlecmd = "google.__main__:main"
+google = "googlecmd.__main__:main"
+googlecmd = "googlecmd.__main__:main"
 
 [project.urls]
 homepage = "https://github.com/alexpdev/googlecmd"
@@ -41,4 +41,4 @@ changelog = "https://alexpdev.github.io/googlecmd/changelog/"
 issues = "https://github.com/alexpdev/googlecmd/issues"
 
 [tool.setuptools]
-packages = ["google"]
+packages = ["googlecmd"]
